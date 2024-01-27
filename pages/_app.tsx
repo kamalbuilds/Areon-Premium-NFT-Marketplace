@@ -8,7 +8,7 @@ import { AerochainTestnet} from "@thirdweb-dev/chains";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={NETWORK} supportedChains = {[AerochainTestnet ]}>
+    <ThirdwebProvider activeChain={AerochainTestnet}>
       {/* Progress bar when navigating between pages */}
       <NextNProgress
         color="var(--color-tertiary)"
