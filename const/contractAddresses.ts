@@ -1,8 +1,8 @@
 // 1. Set up the network your smart contracts are deployed to.
 // First, import the chain from the package, then set the NETWORK variable to the chain.
-import { AerochainTestnet} from "@thirdweb-dev/chains";
+import { AreonNetworkTestnet } from "@thirdweb-dev/chains";
 
-export const NETWORK = AerochainTestnet;
+export const NETWORK = AreonNetworkTestnet;
 
 // 2. The address of the marketplace V3 smart contract.
 export const MARKETPLACE_ADDRESS = "0x4720e2926c360250C6930174241fA2EB0fBaBC29";
