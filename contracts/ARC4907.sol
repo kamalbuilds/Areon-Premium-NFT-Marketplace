@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@thirdweb-dev/contracts/base/ERC721Base.sol";
 import "./IERC4907.sol";
 
-contract ERC4907 is ERC721Base, IERC4907 {
+contract ARC4907 is ERC721Base, IERC4907 {
     struct UserInfo {
         address user; // address of user role
         uint64 expires; // unix timestamp, user expires
@@ -13,11 +13,12 @@ contract ERC4907 is ERC721Base, IERC4907 {
     mapping(uint256 => UserInfo) internal _users;
 
     constructor(
+        address _defaultAdmin,
         string memory _name,
         string memory _symbol,
         address _royaltyRecipient,
         uint128 _royaltyBps
-    ) ERC721Base(_name, _symbol, _royaltyRecipient, _royaltyBps) {}
+    ) ERC721Base( _defaultAdmin,_name, _symbol, _royaltyRecipient, _royaltyBps) {}
 
     /// @notice set the user and expires of a NFT
     /// @dev The zero address indicates there is no user
