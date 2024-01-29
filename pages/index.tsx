@@ -27,7 +27,7 @@ const Home: NextPage = () => {
           <div className={styles.heroAssetFrame}>
             <Image
               src="/home.png"
-              width={860}
+              width={650}
               height={540}
               alt="Hero asset, NFT marketplace"
               quality={100}
@@ -38,12 +38,12 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  Areon Gaming Hub
+                  Areon&apos;s Premium NFT Hub
                 </span>
                 <br />
               </h1>
               <h2>
-                Trade Unique Gaming NFTs on Areon s Premier Marketplace 🌐
+                Trade Unique Premium NFT Collections on Areon's Premium Marketplace 🌐
               </h2>
               <br />
             </div>
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         </div>
         <div className="text-center mx-56">
             <p className={styles.heroSubtitle}>
-              Seamlessly trade, collect, and explore unique gaming NFTs while having access to comprehensive transaction history. Immerse yourself in the future of gaming and unlock the true potential of digital ownership.
+              Seamlessly trade, collect, and explore unique NFTs while having access to comprehensive transaction history. Immerse yourself in the future of gaming and unlock the true potential of digital ownership.
             </p>
                 <div className={styles.heroCtaContainer}>
                   <Link className={styles.heroCta} href="/buy">

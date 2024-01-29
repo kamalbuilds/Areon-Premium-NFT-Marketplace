@@ -12,7 +12,7 @@ import {
   import { GetStaticProps, GetStaticPaths } from "next";
   import { NFT, ThirdwebSDK } from "@thirdweb-dev/sdk";
   import {
-    ETHERSCAN_URL,
+    EXPLORER_URL,
     MARKETPLACE_ADDRESS,
     NETWORK,
     RENTNFT_COLLECTION_ADDRESS,
@@ -195,7 +195,7 @@ import {
                       <div className={styles.eventContainer}>
                         <Link
                           className={styles.txHashArrow}
-                          href={`${ETHERSCAN_URL}/tx/${event.transaction.transactionHash}`}
+                          href={`${EXPLORER_URL}/tx/${event.transaction.transactionHash}`}
                           target="_blank"
                         >
                           ↗

@@ -1,4 +1,4 @@
-# AreonNFTHub: Your Gateway to Premium NFT Trading 🌐🎨
+# AreonNFTHub: Your Gateway to Premium NFT Trading on Areon Network 🌐🎨
 
 🚀 Welcome to the Pinnacle of Digital Ownership: AreonNFTHub! 🚀
 
@@ -22,10 +22,11 @@ Kickstart your adventure in the world of NFTs with AreonNFTHub by following thes
 
 1. Clone our repository.
 2. Run `npm install` to set up necessary dependencies.
-3. Start the application with `npm start`.
-4. Register your account on AreonNFTHub and link your Areon wallet.
+3. Start the application with `npm run dev`.
+4. Connect your wallet and Enter the Areon premium NFT Marketplace.
 5. Dive into our diverse marketplace, find your next digital treasure, and start your trading journey!
 
-## Join the Digital Ownership Revolution! 🌟
+## Join the Areonite Revolution! 🌟
 
-Are you ready to dive into the future of digital ownership and NFT trading? Join AreonNFTHub now and be part of an innovative community at the forefront of blockchain technology.
+Are you ready to dive into the future of Areons and NFT trading? 
+Join AreonNFTHub now and be part of an innovative community at the forefront of blockchain technology.

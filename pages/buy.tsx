@@ -11,7 +11,7 @@ export default function Buy() {
 
   return (
     <Container maxWidth="lg">
-      <h1>Buy Gaming NFTs from the Collection</h1>
+      <h1>Buy Areon NFTs from the Collection</h1>
       <br />
       <NFTGrid
         data={data}

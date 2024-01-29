@@ -32,15 +32,23 @@ export function Navbar() {
             <Link href="/rent" className={styles.link}>
               Rent
             </Link>
-            <Link href="/tokenbalances" className={styles.link}>
-              Balances
-            </Link>
           </div>
         </div>
 
         <div className={styles.navRight}>
           <div className={styles.navConnect}>
-            <ConnectWallet theme="dark" btnTitle="Connect Wallet" />
+            <ConnectWallet theme="dark" btnTitle={"Enter AreonNFTHub"} 
+            welcomeScreen={{
+              img: {
+                src: "https://pbs.twimg.com/profile_images/1668751547285504002/Fn4GgdKT_400x400.jpg",
+                width: 150,
+                height: 150,
+              },
+              title:
+                "Your Entry to the world of Areon",
+              subtitle: "Connect Wallet to enter 🎉",
+            }}
+            />
           </div>
           {address && (
             <Link className={styles.link} href={`/profile/${address}`}>

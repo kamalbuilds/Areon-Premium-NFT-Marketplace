@@ -1,5 +1,3 @@
-// 1. Set up the network your smart contracts are deployed to.
-// First, import the chain from the package, then set the NETWORK variable to the chain.
 import { AreonNetworkTestnet } from "@thirdweb-dev/chains";
 
 export const NETWORK = AreonNetworkTestnet;
@@ -12,5 +10,4 @@ export const NFT_COLLECTION_ADDRESS = "0x3e508632189D6b211F3c9b96B429B7B5d22704D
 
 export const RENTNFT_COLLECTION_ADDRESS = "0x4492299E1537b08aEdC0653Fd139A28BEFbd3300";
 
-// (Optional) Set up the URL of where users can view transactions on
-export const ETHERSCAN_URL = "https://aeroscan.com/";
+export const EXPLORER_URL = "https://aeroscan.com/";

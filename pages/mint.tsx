@@ -58,7 +58,7 @@ export default function Component() {
   return (
     <Container maxWidth="lg">
       <Toaster position="bottom-center" reverseOrder={false} />
-      <h1>Tokenize your Gaming Asset as an NFT</h1>
+      <h1>Tokenize your Areon Asset as an NFT</h1>
       <form className="space-y-4 my-4">
         <div className="mb-4">
           <label className="block mb-2">

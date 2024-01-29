@@ -145,7 +145,7 @@ export default function SaleInfo({ nft }: Props) {
   return (
     <>
       <Toaster position="bottom-center" reverseOrder={false} />
-      <div className={styles.saleInfoContainer} style={{ marginTop: -42 }}>
+      <div className={styles.saleInfoContainer} style={{ marginTop: -30 }}>
         <div className={profileStyles.tabs}>
           <h3
             className={`${profileStyles.tab} 
