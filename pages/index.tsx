@@ -59,7 +59,7 @@ const Home: NextPage = () => {
                 <br />
               </h1>
               <h2>
-                Trade Unique Premium NFT Collections on Areon's Premium
+                Trade Unique Premium NFT Collections on Areon &aptos;s Premium
                 Marketplace 🌐
               </h2>
               <br />

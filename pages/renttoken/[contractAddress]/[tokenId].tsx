@@ -295,7 +295,7 @@ import {
               <div className="space-y-4">
                   <form className="p-4 mb-4">
                     <label>
-                      User:
+                      User Address:
                       <input type="text" value={user} onChange={event => setUser(event.target.value)} className="mx-4"/>
                     </label>
                     <br />
@@ -306,7 +306,7 @@ import {
                     <br />
                   </form>
                     <Web3Button
-                        contractAddress="0x787641796556f17395C311E8917538461701cd64"
+                        contractAddress={RENTNFT_COLLECTION_ADDRESS}
                         action={(contract) => {
                           contract.call("setUser", [nft.metadata.id, user, expires])
                         }}
@@ -316,7 +316,7 @@ import {
               </div>
                 <div className="my-4">
                   <Web3Button
-                    contractAddress="0x787641796556f17395C311E8917538461701cd64"
+                    contractAddress={RENTNFT_COLLECTION_ADDRESS}
                     action={(contract) => {
                       // @ts-ignore
                       contract.call("burn", nft.metadata.id)
